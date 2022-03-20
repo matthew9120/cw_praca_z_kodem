@@ -9,11 +9,11 @@ To start working with app, you will need:
 
 You also need to activate Python's virtual environment. When you are in shell, app's directory, you need to run:
 ```
-source python-venv/bin/activate
+source python3-venv/bin/activate
 ```
 on Linux/MacOS or
 ```
-python-venv\Scripts\activate.bat
+python3-venv\Scripts\activate.bat
 ```
 on Windows cmd
 
