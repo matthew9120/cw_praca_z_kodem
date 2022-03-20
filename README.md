@@ -27,7 +27,11 @@ make install
 
 ## Testing
 
-To test code, which is in app.py, you can use:
+To test code, which is in app.py, you will need to install pylint, by:
+```
+pip install pylint
+```
+This allows you to testing code, by command:
 
 ```
 make test
