@@ -39,11 +39,13 @@ make test
 
 ## Run server
 
-After installing vendors, you can run server, by this command:
+After installing vendors, you can run HTTP server, by this command:
 
 ```
 make run
 ```
+
+Server will be running on our terminal. Shutting down is possible by pressing: Ctrl+C.
 
 ## Using
 
