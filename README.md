@@ -51,3 +51,10 @@ When you have active http server, you can use enter the pages:
 - Homepage [http://localhost:5000](http://localhost:5000)
 - Login [http://localhost:5000/login](http://localhost:5000/login)
 
+## Deactivating venv
+
+Virtual environment can be deactivated by command:
+```
+deactivate
+```
+
