@@ -1,7 +1,7 @@
-install-vendors:
+install:
 	pip install -r requirements.txt
-run: install-vendors
+run: install
 	flask run
-test: install-vendors
+test: install
 	pylint app.py
 

@@ -5,8 +5,17 @@
 ### Requirements
 
 To start working with app, you will need:
-- Python (3.8+)
 - make
+
+You also need to activate Python's virtual environment. When you are in shell, app's directory, you need to run:
+```
+source python-venv/bin/activate
+```
+on Linux/MacOS or
+```
+python-venv\Scripts\activate.bat
+```
+on Windows cmd
 
 ### Installation
 
