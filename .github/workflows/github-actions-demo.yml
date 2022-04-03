@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
     Example-actions:
-        runs-on: ubuntu-10
+        runs-on: ubuntu-latest
         steps:
             - run: docker --version
             - run: python3 --version
