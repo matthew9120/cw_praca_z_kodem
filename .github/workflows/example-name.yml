@@ -1,0 +1,9 @@
+name: Example name
+on: [push]
+jobs:
+	Example-actions:
+		- docker --version
+		- python3 --version
+		- pylint app.py
+		- docker build --tag test-flask-app .
+
