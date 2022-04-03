@@ -9,5 +9,5 @@ jobs:
             - run: pylint app.py
             - run: docker build --tag test-flask-app .
             - name: Push actions
-              uses: actions/checkout@ubuntu-10
+              uses: actions/push@ubuntu-10
 
