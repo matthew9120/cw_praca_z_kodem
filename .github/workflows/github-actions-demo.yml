@@ -4,8 +4,8 @@ jobs:
     Example-actions:
         runs-on: ubuntu-10
         steps:
-            - docker --version
-            - python3 --version
-            - pylint app.py
-            - docker build --tag test-flask-app .
+            - run: docker --version
+            - run: python3 --version
+            - run: pylint app.py
+            - run: docker build --tag test-flask-app .
 
