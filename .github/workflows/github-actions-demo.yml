@@ -2,10 +2,10 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
     Example-actions:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-10
         steps:
-            - run: docker --version
-            - run: python3 --version
-            - run: pylint app.py
-            - run: docker build --tag test-flask-app .
+            - docker --version
+            - python3 --version
+            - pylint app.py
+            - docker build --tag test-flask-app .
 
