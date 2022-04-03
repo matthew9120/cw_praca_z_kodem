@@ -12,7 +12,6 @@ jobs:
     test-code-by-pylint:
         runs-on: ubuntu-latest
         steps:
-            name: Install pylint
             - uses: actions/setup-python@v1
                 with:
                   python-version: 3.8
