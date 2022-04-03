@@ -4,10 +4,9 @@ jobs:
     Example-actions:
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v2
             - run: docker --version
             - run: python3 --version
             - run: pylint app.py
             - run: docker build --tag test-flask-app .
-            - name: Push actions
-              uses: actions/push@ubuntu-10
 
